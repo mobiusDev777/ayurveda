@@ -49,7 +49,7 @@ function AgniParikshan() {
           {item.options.map((option, index) => (
             <div key={index} onClick={() => handleSelection(item.id, index)} style={{
               ...styles.cardOptions,
-              backgroundColor: selectedOpt[item.id] == index ? '#6f8d' : '#bbb4',
+              backgroundColor: selectedOpt[item.id] === index ? '#6f8d' : '#bbb4',
             }}>{option}</div>
           ))}
           </div>
@@ -77,15 +77,13 @@ function AgniParikshan() {
             backdropFilter: 'blur(12px)',
           }} onClick={() => setShowResult(false)} />
 				<div
-					style={{						
-						width: "80%",
-            maxHeight: "88%",
-            overflow: 'auto',
-						padding: "22px",
-						borderRadius: "22px",
-						backgroundColor: "#fff",
-					}}
-				>{selectedOpt.filter(ele => ele).length ? (
+					style={styles.resultPanel}
+				><div style={{
+          textAlign: 'center',
+        }}>
+          {`Total score: ${selectedOpt.filter(ele => ele != null).reduce((sum, ele) => sum + ++ele, 0)}`}
+        </div>
+          {selectedOpt.filter(ele => ele).length ? (
           selectedOpt
 						.map((ele, eleIndex) => [
 							AgniOptions[eleIndex].question,
@@ -169,5 +167,13 @@ const styles = {
     padding: '8px 14px',
     borderRadius: '24px',
     // backgroundColor: '#ffffff',
+  },
+  resultPanel: {						
+    width: "80%",
+    maxHeight: "88%",
+    overflow: 'auto',
+    padding: "22px",
+    borderRadius: "22px",
+    backgroundColor: "#fff",
   }
 }

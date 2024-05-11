@@ -102,7 +102,6 @@ function Pages({ displayData, selectedData, selectData }) {
                 padding: '10px',
                 borderRadius: '12px',
                 backgroundColor: '#fffa',
-                border: '1px solid #000',
               }}>
                 <header style={{
                   fontSize: '24px',

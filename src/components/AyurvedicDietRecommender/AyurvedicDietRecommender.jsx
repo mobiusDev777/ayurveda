@@ -45,7 +45,7 @@ function AyurvedicDietRecommender() {
 
 			const img = canvas.toDataURL("image/png");
 			
-			if(downloadType == 'img'){
+			if(downloadType === 'img'){
 				FileSaver.saveAs(img, 'myCanvas.jpg');
 			} else {
 
