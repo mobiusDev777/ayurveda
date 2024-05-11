@@ -9,7 +9,7 @@ import PrakritiParikshan from "./components/PrakritiParikshan/PrakritiParikshan"
 import AgniParikshan from "./components/AgniParikshan/AgniParikshan";
 import KosthaParikshan from "./components/KosthaParikshan/KosthaParikshan";
 import AyurvedicDietRecommender from "./components/AyurvedicDietRecommender/AyurvedicDietRecommender";
-import ResultPage from "./components/ResultPage";
+// import ResultPage from "./components/ResultPage";
 
 // let c = 0;
 const App = () => {
@@ -36,7 +36,7 @@ const App = () => {
 					<Route path="agni_parikshan" element={<AgniParikshan />} />
 					<Route path="kostha_parikshan" element={<KosthaParikshan />} />
 					<Route path="diet_recommender" element={<AyurvedicDietRecommender />} />
-					<Route path="result" element={<ResultPage />} />
+					{/* <Route path="result" element={<ResultPage />} /> */}
 					<Route path="*" element={
             <main style={{
 							width: '100%',
