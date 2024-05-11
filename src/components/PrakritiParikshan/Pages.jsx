@@ -98,10 +98,11 @@ function Pages({ displayData, selectedData, selectData }) {
               gap: '12px',
             }}>{Object.entries(item.options).map(([dosha, options], index) => (
               <div key={index} style={{
-                flexGrow: 1,
+                flex: 1,
                 padding: '10px',
                 borderRadius: '12px',
                 backgroundColor: '#fffa',
+                border: '1px solid #000',
               }}>
                 <header style={{
                   fontSize: '24px',

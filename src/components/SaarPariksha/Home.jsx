@@ -47,7 +47,7 @@ export default Home
 const styles = {
 	container: {
 		width: "100%",
-		height: "100vh",
+		minHeight: "100vh",
 		paddingTop: "60px",
 		display: "flex",
 		flexDirection: "column",

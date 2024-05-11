@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 
 import KosthaOptions from './KosthaOptions.json'
-import { useNavigate } from 'react-router-dom'
 import ArrowBack from '../SymbolicComponent/ArrowBack';
 import ResultBtn from '../SymbolicComponent/ResultBtn';
 import AppSettings from '../Contexts/AppSettings';
@@ -39,7 +38,7 @@ function KosthaParikshan() {
         padding: '0 22px',
       }}>
       {KosthaOptions.map((item) => (
-        <div key={item.id} style={styles.card}>
+        <div key={item.id} style={{...styles.card, width: isMobile ? '360px': '480px'}}>
           <div style={styles.cardHeader}>{item.question}</div>
           <div style={styles.cardOptionsCont}>
           {item.options.map((option, index) => (
