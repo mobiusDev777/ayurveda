@@ -1,0 +1,72 @@
+[
+	{
+		"id": 0,
+		"question": "What time do you need to feel like eating again, after taking a meal",
+		"options": ["6-8 hours", "8 hours", "Not consistent", "Before 6 hours"]
+	},
+	{
+		"id": 1,
+		"question": "How frequently do you eat your meals in a day?",
+		"options": ["3 meals", "2 meals", "1-4 meals", "More than 3 meals"]
+	},
+	{
+		"id": 2,
+		"question": "How long can you bear hunger?",
+		"options": ["1-2 hours", "2 hours", "1 hour/unbearable", "Unbearable"]
+	},
+	{
+		"id": 3,
+		"question": "What is the quantity of meal taken by you?",
+		"options": ["Average", "Small", "Large/Small", "Large"]
+	},
+	{
+		"id": 4,
+		"question": "How do you feel while looking at food?",
+		"options": [
+			"Feeling like eating",
+			"Do not feel like eating even after being hungry",
+			"Sometimes feel like eating",
+			"Always, irrespective of hunger/liking"
+		]
+	},
+	{
+		"id": 5,
+		"question": "How long does it take to digest a normal quantity of food?",
+		"options": ["Average", "Longer", "Varies", "Quick"]
+	},
+	{
+		"id": 6,
+		"question": "How is your bowel habit?",
+		"options": ["Normal", "Constipated", "Hard", "Normal"]
+	},
+	{
+		"id": 7,
+		"question": "How are your eating habits?",
+		"options": [
+			"Eat at scheduled time",
+			"After scheduled time",
+			"Before/After scheduled time",
+			"Before scheduled time"
+		]
+	},
+	{
+		"id": 8,
+		"question": "How do you feel after digestion of food?",
+		"options": [
+			"Lightness in abdomen",
+			"Heaviness of abdomen",
+			"Slight heaviness/lightness",
+			"Lightness very early"
+		]
+	},
+	{
+		"id": 9,
+		"question": "Does change in lifestyle/food quantity/quality cause disturbance?",
+		"options": [
+			"Does not affect sometimes/sometimes does",
+			"Gets affected by slight change in lifestyle",
+			"Appreciable disturbance",
+			"Initially disturbed but later adapted"
+		]
+	}
+]

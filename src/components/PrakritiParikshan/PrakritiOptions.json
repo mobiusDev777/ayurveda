@@ -1,0 +1,531 @@
+{
+	"Body": [
+		{
+			"id": 0,
+			"question": "Body",
+			"options": {
+				"vaat": [
+					"Body Organs are not Properly demarkated",
+					"Lean & Thin",
+					"Rough",
+					"Short",
+					"Bodyless Developed"
+				],
+				"pitt": [
+					"Pallor",
+					"Body Organs are Not Properly demarkated",
+					"Lustureness"
+				],
+				"kuff": ["Fair Organs", "Attractive", "Delicate", "Compactness of Body"]
+			}
+		},
+		{
+			"id": 1,
+			"question": "Skin",
+			"options": {
+				"vaat": ["Dryness", "Cracked"],
+				"pitt": ["None"],
+				"kuff": ["Unctuous complexion"]
+			}
+		},
+		{
+			"id": 2,
+			"question": "Complexion",
+			"options": {
+				"vaat": ["Dark"],
+				"pitt": ["Coppery", "Fair"],
+				"kuff": [
+					"Fair",
+					"Grass",
+					"Lotus",
+					"New leaf of neem",
+					"Sharkand ke rang ka"
+				]
+			}
+		},
+		{
+			"id": 3,
+			"question": "Face",
+			"options": {
+				"vaat": ["Dry", "Roughness"],
+				"pitt": [
+					"Hot face",
+					"Delicate",
+					"Moles",
+					"Freckles",
+					"Black moles",
+					"Pimples"
+				],
+				"kuff": ["Lustureness"]
+			}
+		},
+		{
+			"id": 4,
+			"question": "Hair and Beard",
+			"options": {
+				"vaat": ["Few", "Rough", "Hard"],
+				"pitt": ["Wrinkles", "Greying", "Baldness", "Soft", "Sparse", "Brown"],
+				"kuff": ["Dense", "Bee Blacks", "Strong", "Soft", "Shiny", "Curly"]
+			}
+		},
+		{
+			"id": 5,
+			"question": "Eye",
+			"options": {
+				"vaat": ["Dry", "Slight open during sleep"],
+				"pitt": ["Coppery"],
+				"kuff": ["Large", "Shiny", "Reddish Corner"]
+			}
+		},
+		{
+			"id": 6,
+			"question": "Eye Brow",
+			"options": {
+				"vaat": ["few", "slight open during sleep"],
+				"pitt": ["None"],
+				"kuff": ["Dense", "Thick"]
+			}
+		},
+		{
+			"id": 7,
+			"question": "Muscles",
+			"options": {
+				"vaat": ["Extinct", "Thin", "Rough", "Cracked"],
+				"pitt": ["Relax Muscle"],
+				"kuff": ["Well Defined Muscles", "Long"]
+			}
+		},
+		{
+			"id": 8,
+			"question": "Nail",
+			"options": {
+				"vaat": ["Small", "Rough", "Dry", "hard"],
+				"pitt": ["Coppery"],
+				"kuff": ["Large", "Soft", "Smooth", "Shining", "Whitish", "Thick"]
+			}
+		},
+		{
+			"id": 9,
+			"question": "Organs",
+			"options": {
+				"vaat": ["Extinct", "More in number than normal"],
+				"pitt": ["Slackness"],
+				"kuff": ["Well defined", "Compactness"]
+			}
+		},
+		{
+			"id": 10,
+			"question": "Veins and Tendons",
+			"options": { "vaat": ["Visible"], "pitt": ["None"], "kuff": ["None"] }
+		},
+		{
+			"id": 11,
+			"question": "Teeth",
+			"options": { "vaat": ["Small"], "pitt": ["None"], "kuff": ["None"] }
+		},
+		{
+			"id": 12,
+			"question": "Joints",
+			"options": {
+				"vaat": ["Unstable", "Looseness", "Tremor", "Sound During Movement"],
+				"pitt": ["Soft"],
+				"kuff": ["Ligaments"]
+			}
+		},
+		{
+			"id": 13,
+			"question": "Palate",
+			"options": { "vaat": ["None"], "pitt": ["Coppery"], "kuff": ["None"] }
+		},
+		{
+			"id": 14,
+			"question": "Tongue",
+			"options": { "vaat": ["None"], "pitt": ["Coppery"], "kuff": ["None"] }
+		},
+		{
+			"id": 15,
+			"question": "Ventral Side of Palm and sole",
+			"options": {
+				"vaat": ["Cracked"],
+				"pitt": ["Coppery"],
+				"kuff": ["None"]
+			}
+		}
+	],
+	"Body Process": [
+		{
+			"id": 0,
+			"question": "Speed",
+			"options": {
+				"vaat": ["Fast speed", "Unsteady"],
+				"pitt": ["None"],
+				"kuff": ["Dull"]
+			}
+		},
+		{
+			"id": 1,
+			"question": "Way of walking",
+			"options": {
+				"vaat": ["unstable", "more walking"],
+				"pitt": ["None"],
+				"kuff": ["supported", "dull"]
+			}
+		},
+		{
+			"id": 2,
+			"question": "Talking",
+			"options": {
+				"vaat": ["excessive speak", "irrelevant tak"],
+				"pitt": [
+					"harsh to the rude but compassionate  and charitable to those submitted"
+				],
+				"kuff": [
+					"Sound of cloud ",
+					"Roaring of lion",
+					"Drum sound",
+					"Speak Less",
+					"Slow"
+				]
+			}
+		},
+		{
+			"id": 3,
+			"question": "Sound",
+			"options": {
+				"vaat": ["Hoarse voice"],
+				"pitt": ["Contending Debator"],
+				"kuff": ["honour", "Respectfull", "serious"]
+			}
+		},
+		{
+			"id": 4,
+			"question": "Perspiration Tendency",
+			"options": {
+				"vaat": ["None"],
+				"pitt": ["Sweat profusely"],
+				"kuff": ["Little perspiration"]
+			}
+		},
+		{
+			"id": 5,
+			"question": "nail biting",
+			"options": {
+				"vaat": ["biting of nail"],
+				"pitt": ["None"],
+				"kuff": ["None"]
+			}
+		},
+		{
+			"id": 6,
+			"question": "interest in food",
+			"options": {
+				"vaat": ["hot and oily substance"],
+				"pitt": ["cold substance"],
+				"kuff": ["sweet dishes"]
+			}
+		},
+		{
+			"id": 7,
+			"question": "hunger",
+			"options": {
+				"vaat": ["None"],
+				"pitt": ["excess hunger"],
+				"kuff": ["less hunger"]
+			}
+		},
+		{
+			"id": 8,
+			"question": "diet havit",
+			"options": { "vaat": ["None"], "pitt": ["eats a lot"], "kuff": ["None"] }
+		},
+		{
+			"id": 9,
+			"question": "thirst",
+			"options": {
+				"vaat": ["None"],
+				"pitt": ["excess thirst"],
+				"kuff": ["leee"]
+			}
+		},
+		{
+			"id": 10,
+			"question": "sleep",
+			"options": { "vaat": ["awakening"], "pitt": ["None"], "kuff": ["excess"] }
+		},
+		{
+			"id": 11,
+			"question": "desire to eat",
+			"options": {
+				"vaat": ["madhur ,amla and lavana"],
+				"pitt": ["madhur ,kashay and tikta"],
+				"kuff": ["katu,tikta and kashay"]
+			}
+		},
+		{
+			"id": 12,
+			"question": "body smell",
+			"options": { "vaat": ["None"], "pitt": ["foul smell"], "kuff": ["None"] }
+		},
+		{
+			"id": 13,
+			"question": "strength",
+			"options": {
+				"vaat": ["low degree of strength"],
+				"pitt": ["moderate strength"],
+				"kuff": ["strong strength"]
+			}
+		},
+		{
+			"id": 14,
+			"question": "vision",
+			"options": { "vaat": ["unstable"], "pitt": ["None"], "kuff": ["None"] }
+		},
+		{
+			"id": 15,
+			"question": "activity",
+			"options": {
+				"vaat": ["hasty initiation"],
+				"pitt": ["None"],
+				"kuff": ["dull"]
+			}
+		},
+		{
+			"id": 16,
+			"question": "diet",
+			"options": {
+				"vaat": ["None"],
+				"pitt": ["frequently eating"],
+				"kuff": ["dull"]
+			}
+		},
+		{
+			"id": 17,
+			"question": "disorder",
+			"options": { "vaat": ["hasty "], "pitt": ["None"], "kuff": ["delayed"] }
+		},
+		{
+			"id": 18,
+			"question": "temperature",
+			"options": {
+				"vaat": ["None"],
+				"pitt": ["intense fire"],
+				"kuff": ["little pyrexia"]
+			}
+		},
+		{
+			"id": 19,
+			"question": "urine and faeces",
+			"options": {
+				"vaat": ["None"],
+				"pitt": ["excess urine nad faeces"],
+				"kuff": ["None"]
+			}
+		}
+	],
+	"Mind": [
+		{
+			"id": 0,
+			"question": "Tendency",
+			"options": {
+				"vaat": ["Angry"],
+				"pitt": ["Becomes angry and then calms quickly"],
+				"kuff": ["Hard", "Straight", "Constant"]
+			}
+		},
+		{
+			"id": 1,
+			"question": "Initiation",
+			"options": {
+				"vaat": ["hurry and fast"],
+				"pitt": ["None"],
+				"kuff": ["remain constant", "delay"]
+			}
+		},
+		{
+			"id": 2,
+			"question": "Excitation",
+			"options": {
+				"vaat": ["fast and becomes normal"],
+				"pitt": ["hurry and remain for some time"],
+				"kuff": ["Delay ", "Remains constant"]
+			}
+		},
+		{
+			"id": 3,
+			"question": "Fear",
+			"options": {
+				"vaat": ["quick", "excess"],
+				"pitt": ["Never submit by fear"],
+				"kuff": ["None"]
+			}
+		},
+		{
+			"id": 4,
+			"question": "Disturbance",
+			"options": {
+				"vaat": ["attachment and detachment"],
+				"pitt": ["None"],
+				"kuff": ["calm"]
+			}
+		},
+		{
+			"id": 5,
+			"question": "Acquisition",
+			"options": {
+				"vaat": ["quick"],
+				"pitt": ["moderate"],
+				"kuff": ["delay"]
+			}
+		},
+		{
+			"id": 6,
+			"question": "Memory",
+			"options": {
+				"vaat": ["retentionless", "less memory"],
+				"pitt": ["intelligent", "sharp"],
+				"kuff": ["learned", "retention"]
+			}
+		},
+		{
+			"id": 7,
+			"question": "Tolenrancy",
+			"options": {
+				"vaat": ["averse to cold"],
+				"pitt": ["averse to heat"],
+				"kuff": ["ltolerancy more"]
+			}
+		},
+		{
+			"id": 8,
+			"question": "Children",
+			"options": {
+				"vaat": ["low progeny"],
+				"pitt": ["little semen, sexual act and few progeny"],
+				"kuff": ["sexual act", "children"]
+			}
+		},
+		{
+			"id": 9,
+			"question": "Tolerancy",
+			"options": {
+				"vaat": ["None"],
+				"pitt": ["lack of insurance"],
+				"kuff": ["pain bearer"]
+			}
+		},
+		{
+			"id": 10,
+			"question": "Brave",
+			"options": {
+				"vaat": ["None"],
+				"pitt": ["None"],
+				"kuff": ["braveness"]
+			}
+		},
+		{
+			"id": 11,
+			"question": "life span",
+			"options": {
+				"vaat": ["short"],
+				"pitt": ["moderate"],
+				"kuff": ["long live"]
+			}
+		},
+		{
+			"id": 12,
+			"question": "wealth",
+			"options": {
+				"vaat": ["None"],
+				"pitt": ["None"],
+				"kuff": ["wealthy "]
+			}
+		},
+		{
+			"id": 13,
+			"question": "friendship",
+			"options": {
+				"vaat": ["short duration friendship", "few friends"],
+				"pitt": ["None"],
+				"kuff": ["long duration"]
+			}
+		},
+		{
+			"id": 14,
+			"question": "think",
+			"options": {
+				"vaat": ["hate", "rascal nature", "unstable"],
+				"pitt": ["None"],
+				"kuff": ["thinker"]
+			}
+		},
+		{
+			"id": 15,
+			"question": "gratitude",
+			"options": {
+				"vaat": ["unstable"],
+				"pitt": ["None"],
+				"kuff": ["gratefull"]
+			}
+		},
+		{
+			"id": 16,
+			"question": "greediness",
+			"options": {
+				"vaat": ["None"],
+				"pitt": ["None"],
+				"kuff": ["nongreedy"]
+			}
+		},
+		{
+			"id": 17,
+			"question": "enemy",
+			"options": {
+				"vaat": ["None"],
+				"pitt": ["None"],
+				"kuff": ["long duration enemy"]
+			}
+		},
+		{
+			"id": 18,
+			"question": "prowess",
+			"options": {
+				"vaat": ["theft tendency"],
+				"pitt": ["uncontrolled power in battle ", "sharp preswess"],
+				"kuff": ["None"]
+			}
+		},
+		{
+			"id": 19,
+			"question": "entertainment",
+			"options": {
+				"vaat": ["song and musical"],
+				"pitt": ["None"],
+				"kuff": ["None"]
+			}
+		},
+		{
+			"id": 20,
+			"question": "dream",
+			"options": {
+				"vaat": ["moving in sky"],
+				"pitt": [
+					"gold",
+					"flower of palash and kamikar",
+					"lightning and meteor",
+					"fire",
+					"sun"
+				],
+				"kuff": ["colud water and ponds"]
+			}
+		},
+		{
+			"id": 21,
+			"question": "irritation",
+			"options": {
+				"vaat": ["quick"],
+				"pitt": ["None"],
+				"kuff": ["delayed"]
+			}
+		}
+	]
+}

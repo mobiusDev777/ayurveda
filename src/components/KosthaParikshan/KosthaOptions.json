@@ -1,0 +1,49 @@
+[
+	{
+		"id": 0,
+		"question": "frequency of stool in a day?",
+		"options": ["zero", "one/twice", "more than 2-3"]
+	},
+	{
+		"id": 1,
+		"question": "consistency of stool?",
+		"options": [
+			"hard form",
+			"soft wekk formed",
+			"loose /watery and not well formed"
+		]
+	},
+	{
+		"id": 2,
+		"question": "urgency(pravahan)?",
+		"options": [
+			"no urgency at all,sites lon time with discomfort",
+			"moderate urgency,can be controlled but no need to sit long",
+			"mrked urgency cannot be controlled"
+		]
+	},
+	{
+		"id": 3,
+		"question": "your experince regarding intake of 200ml milk /100g grapes /50g jaggery /200ml ikshu ras(sugarcane juice) /10g avipathikar churna?",
+		"options": [
+			"no change in bowel habit",
+			"normal well formed stool",
+			"watery stool/not well formed"
+		]
+	},
+	{
+		"id": 4,
+		"question": "whether change in food habites wll affect your bowel habits frequently?",
+		"options": ["no chnage in bowel habit", "occasionally", "frequently loose"]
+	},
+	{
+		"id": 5,
+		"question": "duration of defecationd?",
+		"options": ["more than 10 min", "5-10 min", "0-5 min"]
+	},
+	{
+		"id": 6,
+		"question": "satisfaction?",
+		"options": ["unsatisfied", "somewaht satisfied", "satisfied"]
+	}
+]

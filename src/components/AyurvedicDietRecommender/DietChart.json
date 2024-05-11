@@ -1,0 +1,120 @@
+{
+	"Prakriti": {
+		"Vaat": {
+			"Vasanta (Spring)": "Warm, moist foods like cooked grains, soups, and steamed vegetables.",
+			"Grishma (Summer)": "Cooling foods like cucumber, mint, and coconut.",
+			"Varsha (Monsoon)": "Light and easily digestible foods like warm soups and stews.",
+			"Sharad (Autumn)": "Nourishing foods like cooked grains, root vegetables, and herbal teas.",
+			"Hemanta (Winter)": "Warming foods like cooked grains, hearty soups, and spices like ginger and cinnamon.",
+			"Shishira (Late Winter)": "Balancing foods like cooked grains, root vegetables, and cooked fruits."
+		},
+		"Pitta": {
+			"Vasanta (Spring)": "Cooling foods like cucumber, cilantro, and coconut.",
+			"Grishma (Summer)": "Cooling foods like cucumber, mint, and coconut.",
+			"Varsha (Monsoon)": "Light and easily digestible foods like cooked grains, lentils, and soups.",
+			"Sharad (Autumn)": "Balancing foods like sweet fruits, cooked grains, and ghee.",
+			"Hemanta (Winter)": "Warming foods like cooked grains, root vegetables, and spices like cinnamon and cardamom.",
+			"Shishira (Late Winter)": "Balancing foods like cooked grains, root vegetables, and cooked fruits."
+		},
+		"Kapha": {
+			"Vasanta (Spring)": "Light and dry foods like salads, steamed vegetables, and spicy herbs.",
+			"Grishma (Summer)": "Light and dry foods like salads, steamed vegetables, and spicy herbs.",
+			"Varsha (Monsoon)": "Warm and slightly spicy foods like soups, stews, and cooked grains.",
+			"Sharad (Autumn)": "Light and dry foods like salads, cooked grains, and spicy herbs.",
+			"Hemanta (Winter)": "Warming foods like cooked grains, root vegetables, and spices like ginger and black pepper.",
+			"Shishira (Late Winter)": "Warming foods like cooked grains, root vegetables, and spices like ginger and black pepper."
+		}
+	},
+	"Ritu": {
+    "Vasanta (Spring)": {
+      "header": "During Vasanta Ritu, it's beneficial to consume foods that help in detoxification and rejuvenation. Here are some dietary suggestions:",
+      "body": [
+        ["Fresh and Light Foods", [
+          "Seasonal fruits like berries, cherries, and mangoes",
+          "Leafy greens such as spinach, kale, and lettuce",
+          "Light grains like barley, quinoa, and couscous",
+          "Herbal teas and infused water with mint, lemon, and cucumber",
+          "Raw salads with colorful vegetables and sprouts"
+        ]],
+        ["Stay Hydrated", "As the weather gets warmer, it's essential to stay hydrated. Drink plenty of water, coconut water, and fresh fruit juices to maintain hydration levels."],
+        ["Avoid Heavy and Oily Foods", "Avoid consuming heavy and oily foods that can lead to sluggishness and digestive discomfort. Opt for lighter meals that are easy to digest and provide a sense of freshness."]
+      ],
+      "footer": "By following these dietary recommendations, you can stay healthy and energized during the Vasanta season."
+    },
+    "Grishma (Summer)": {
+      "header": "During Grishma Ritu, it's essential to consume foods that help in cooling the body and maintaining hydration. Here are some dietary suggestions",
+      "body": [
+        ["Cooling and Hydrating Foods", [
+          "Water-rich fruits like watermelon, cucumber, and oranges",
+          "Refreshing salads with lettuce, tomatoes, and cucumbers",
+          "Light grains such as barley, quinoa, and amaranth",
+          "Herbal infusions like mint tea, hibiscus tea, and chamomile tea",
+          "Coconut water and lemonade for hydration"
+        ]],
+        ["Avoid Heat-Inducing Foods", "Avoid consuming foods that generate heat in the body, such as spicy dishes, fried foods, and heavy meats. Opt for lighter meals that help in maintaining body temperature."],
+        ["Stay Hydrated", "Due to excessive sweating during the summer months, it's crucial to stay hydrated. Drink plenty of water, coconut water, and herbal teas throughout the day to prevent dehydration."]
+      ],
+      "footer": "By following these dietary recommendations, you can stay cool, hydrated, and energized during the Grishma season"
+    },
+    "Varsha (Monsoon)": {
+      "header": "During Varsha Ritu, it's essential to consume foods that help in boosting immunity and digestion while keeping the body warm and energized. Here are some dietary suggestions:",
+      "body": [
+        ["Immunity-Boosting Foods", [
+          "Fresh fruits rich in vitamin C like oranges, guavas, and strawberries",
+          "Vegetables such as spinach, broccoli, and bell peppers for essential nutrients",
+          "Whole grains like brown rice, oats, and quinoa for sustained energy",
+          "Protein sources like lentils, chickpeas, and lean meats for muscle repair and growth",
+          "Warm soups and stews with immune-boosting spices like turmeric, ginger, and garlic"
+        ]],
+        ["Digestive Health", "Due to the increased humidity during the monsoon season, digestion can be affected. Opt for light, easily digestible foods and avoid heavy, greasy meals. Include probiotic-rich foods like yogurt and fermented foods to promote gut health"],
+        ["Hydration", "While it's essential to stay hydrated during Varsha Ritu, avoid drinking water from unreliable sources to prevent waterborne diseases. Opt for purified or boiled water and consume warm beverages like herbal teas and ginger-infused drinks."]
+        ],
+      "footer": "By following these dietary recommendations, you can stay healthy, resilient, and nourished during the Varsha season."
+    },
+    "Sharad (Autumn)": {
+      "header": "During Sharad Ritu, it's advisable to focus on balancing the body and preparing it for the upcoming winter season. Here are some dietary suggestions",
+      "body": [
+        ["Seasonal Foods", [
+          "Seasonal fruits like apples, pears, and pomegranates for their natural sweetness and vitamins",
+          "Root vegetables such as carrots, sweet potatoes, and turnips for nourishment",
+          "Whole grains like rice, quinoa, and amaranth for sustained energy",
+          "Legumes such as lentils, chickpeas, and kidney beans for protein and fiber",
+          "Healthy fats like nuts, seeds, and avocado for satiety and heart health"
+        ]],
+        ["Warm and Nourishing Foods", "As the weather starts to cool down, include warming spices like cinnamon, nutmeg, and cardamom in your meals. Opt for nourishing soups, stews, and casseroles to keep the body warm and comfortable."],
+        ["Moderation", "Avoid excessive consumption of heavy, fried, or processed foods as they may lead to imbalances in the body. Practice portion control and mindful eating to maintain a healthy lifestyle."]
+        ],
+      "footer": "By incorporating these dietary recommendations into your routine, you can support your body's natural balance and thrive during the Sharad season."
+    },
+		"Hemanta (Winter)": {
+			"header": "During Hemanta Ritu, it's crucial to consume foods that help in maintaining warmth and nourishment. Here are some dietary suggestions",
+			"body": [
+					["Warm and Nourishing Foods", [
+						"Hot soups and stews made with root vegetables and lentils",
+						"Whole grains like oats, quinoa, and brown rice",
+						"Warming spices such as cinnamon, cloves, and turmeric",
+						"Healthy fats from nuts, seeds, and avocados",
+						"Protein-rich foods like lean meats, fish, and tofu"
+					]],
+					["Stay Hydrated", "Even though it's cold, it's essential to stay hydrated. Drink warm fluids like herbal teas, ginger tea, and hot water with lemon throughout the day."],
+					["Avoid Excessively Cold Foods", "Avoid consuming foods that are excessively cold, as they can dampen digestion and weaken the immune system. Opt for warm and cooked meals instead of raw salads and chilled beverages."]
+      ],
+			"footer": "By following these dietary recommendations, you can stay healthy and balanced during the Hemanta season."
+		},
+    "Shishira (Late Winter)": {
+      "header": "During Shishira Ritu, it's advisable to consume foods that help in maintaining warmth and balance in the body. Here are some dietary suggestions",
+      "body": [
+        ["Warm and Nutritious Foods", [
+          "Root vegetables like carrots, beets, and sweet potatoes",
+          "Whole grains such as barley, millet, and quinoa",
+          "Warming spices like ginger, cinnamon, and black pepper",
+          "Healthy fats like ghee, olive oil, and sesame oil",
+          "Protein-rich foods like lentils, chickpeas, and tofu"
+        ]],
+        ["Stay Hydrated", "Even though it's cold outside, it's essential to stay hydrated. Drink warm fluids like herbal teas, ginger tea, and hot water throughout the day."],
+        ["Avoid Cold and Heavy Foods", "Avoid consuming foods that are cold, heavy, and difficult to digest. This includes chilled beverages, raw salads, and deep-fried foods."]
+      ],
+      "footer": "By following these dietary recommendations, you can stay healthy and balanced during the Shishira season."
+    }
+	}
+}

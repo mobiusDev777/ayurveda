@@ -1,0 +1,106 @@
+{
+	"id": 1,
+	"category": "",
+	"options": [
+		["Vaat", []],
+		["Pitt", []],
+		["Kuff", []]
+	]
+}
+
+
+{
+	"id": 1,
+	"category": "",
+	"options": [
+		["वात", []],
+		["पित्त", []],
+		["कफ", []]
+	]
+}
+
+
+{
+	"id": 4,
+	"category": "Hair and Beard",
+	"vaat": ["Few", "Rough", "Hard"],
+	"pitt": ["Wrinkles", "Greying", "Baldness", "Soft", "Sparse", "Brown"],
+	"kuff": ["Dense", "Bee Blacks", "Strong", "Soft", "Shiny", "Curly"]
+},
+{
+	"id": 5,
+	"category": "Eye",
+	"vaat": ["Dry", "Slight open during sleep"],
+	"pitt": ["Coppery"],
+	"kuff": ["Large", "Shiny", "Reddish Corner"]
+},
+{
+	"id": 6,
+	"category": "Eye Brow",
+	"vaat": ["few", "slight open during sleep"],
+	"pitt": ["None"],
+	"kuff": ["Dense", "Thick"]
+},
+{
+	"id": 7,
+	"category": "Muscles",
+	"vaat": ["Extinct", "Thin", "Rough", "Cracked"],
+	"pitt": ["Relax Muscle"],
+	"kuff": ["Well Defined Muscles", "Long"]
+},
+{
+	"id": 8,
+	"category": "Nail",
+	"vaat": ["Small", "Rough", "Dry", "hard"],
+	"pitt": ["Coppery"],
+	"kuff": ["Large", "Soft", "Smooth", "Shining", "Whitish", "Thick"]
+},
+{
+	"id": 9,
+	"category": "Organs",
+	"vaat": ["Extinct", "More in number than normal"],
+	"pitt": ["Slackness"],
+	"kuff": ["Well defined", "Compactness"]
+},
+{
+	"id": 10,
+	"category": "Veins and Tendons",
+	"vaat": ["Visible"],
+	"pitt": ["None"],
+	"kuff": ["None"]
+},
+{
+	"id": 11,
+	"category": "Teeth",
+	"vaat": ["Small"],
+	"pitt": ["None"],
+	"kuff": ["None"]
+},
+{
+	"id": 12,
+	"category": "Joints",
+	"vaat": ["Unstable", "Looseness", "Tremor", "Sound During Movement"],
+	"pitt": ["Soft"],
+	"kuff": ["Ligaments"]
+},
+{
+	"id": 13,
+	"category": "Palate",
+	"vaat": ["None"],
+	"pitt": ["Coppery"],
+	"kuff": ["None"]
+},
+{
+	"id": 14,
+	"category": "Tongue",
+	"vaat": ["None"],
+	"pitt": ["Coppery"],
+	"kuff": ["None"]
+},
+{
+	"id": 15,
+	"category": "Ventral Side of Palm and sole",
+	"vaat": ["Cracked"],
+	"pitt": ["Coppery"],
+	"kuff": ["None"]
+}
