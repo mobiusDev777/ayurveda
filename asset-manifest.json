@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ayurveda/static/css/main.bf472f22.css",
-    "main.js": "/ayurveda/static/js/main.109f0dd1.js",
+    "main.js": "/ayurveda/static/js/main.d5dcd6cb.js",
     "static/js/213.fa86d1ec.chunk.js": "/ayurveda/static/js/213.fa86d1ec.chunk.js",
     "static/js/455.0acf3f74.chunk.js": "/ayurveda/static/js/455.0acf3f74.chunk.js",
     "static/js/453.cc4d4cb0.chunk.js": "/ayurveda/static/js/453.cc4d4cb0.chunk.js",
@@ -16,13 +16,13 @@
     "static/media/notepad.png": "/ayurveda/static/media/notepad.8d570092a95416aa4380.png",
     "index.html": "/ayurveda/index.html",
     "main.bf472f22.css.map": "/ayurveda/static/css/main.bf472f22.css.map",
-    "main.109f0dd1.js.map": "/ayurveda/static/js/main.109f0dd1.js.map",
+    "main.d5dcd6cb.js.map": "/ayurveda/static/js/main.d5dcd6cb.js.map",
     "213.fa86d1ec.chunk.js.map": "/ayurveda/static/js/213.fa86d1ec.chunk.js.map",
     "455.0acf3f74.chunk.js.map": "/ayurveda/static/js/455.0acf3f74.chunk.js.map",
     "453.cc4d4cb0.chunk.js.map": "/ayurveda/static/js/453.cc4d4cb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf472f22.css",
-    "static/js/main.109f0dd1.js"
+    "static/js/main.d5dcd6cb.js"
   ]
 }
