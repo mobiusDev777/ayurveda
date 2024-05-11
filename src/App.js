@@ -37,28 +37,6 @@ const App = () => {
 					<Route path="kostha_parikshan" element={<KosthaParikshan />} />
 					<Route path="diet_recommender" element={<AyurvedicDietRecommender />} />
 					<Route path="result" element={<ResultPage />} />
-					<Route path="*" element={
-            <main style={{
-							width: '100%',
-							height: '100vh',
-							padding: "1rem",
-							backgroundColor: '#e22',
-							display: 'flex',
-							justifyContent: 'center',
-              alignItems: 'center',
-						}}>
-              <p style={{
-								fontSize: '40px',
-								fontWeight: '600',
-								fontFamily: 'Nunito',
-              	color: '#fff',
-								textShadow: '2px 2px #000',
-							}}>
-								There's nothing here (404)!
-							</p>
-            </main>
-          }
-          />
 				</Routes>
 			</BrowserRouter>
 		</AppSettings.Provider>
