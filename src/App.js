@@ -30,7 +30,7 @@ const App = () => {
 		<AppSettings.Provider value={{isDark, setTheme, isMobile}}>
 			<HashRouter>
 				<Routes>
-					<Route index path="/" element={<HomePage isDark={isDark} />} />
+					<Route index path="/homePage" element={<HomePage isDark={isDark} />} />
 					<Route path="saar_pariksha/*" element={<SaarPariksha />} />
 					<Route path="prakriti_pariksha/*" element={<PrakritiParikshan />} />
 					<Route path="agni_parikshan" element={<AgniParikshan />} />
