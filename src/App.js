@@ -36,7 +36,7 @@ const App = () => {
 					<Route path="agni_parikshan" element={<AgniParikshan />} />
 					<Route path="kostha_parikshan" element={<KosthaParikshan />} />
 					<Route path="diet_recommender" element={<AyurvedicDietRecommender />} />
-					{/* <Route path="result" element={<ResultPage />} />
+					<Route path="result" element={<ResultPage />} />
 					<Route path="*" element={
             <main style={{
 							width: '100%',
@@ -58,7 +58,7 @@ const App = () => {
 							</p>
             </main>
           }
-          /> */}
+          />
 				</Routes>
 			</BrowserRouter>
 		</AppSettings.Provider>
