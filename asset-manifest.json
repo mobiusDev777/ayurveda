@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/ayurveda/homepage/static/css/main.bf472f22.css",
-    "main.js": "/ayurveda/homepage/static/js/main.5c71d8d5.js",
-    "static/js/213.fa86d1ec.chunk.js": "/ayurveda/homepage/static/js/213.fa86d1ec.chunk.js",
-    "static/js/455.0acf3f74.chunk.js": "/ayurveda/homepage/static/js/455.0acf3f74.chunk.js",
-    "static/js/453.cc4d4cb0.chunk.js": "/ayurveda/homepage/static/js/453.cc4d4cb0.chunk.js",
-    "static/media/digestive_system.png": "/ayurveda/homepage/static/media/digestive_system.74e4c86249de0adcfa8e.png",
-    "static/media/saar.png": "/ayurveda/homepage/static/media/saar.d973d7816f340526b07e.png",
-    "static/media/body_process.png": "/ayurveda/homepage/static/media/body_process.54c994ba04711bc9cdfb.png",
-    "static/media/body.png": "/ayurveda/homepage/static/media/body.9104521d00e5eefcc11f.png",
-    "static/media/agni.png": "/ayurveda/homepage/static/media/agni.f29146f08be54d743615.png",
-    "static/media/prakriti.png": "/ayurveda/homepage/static/media/prakriti.31a28139eb30ab7e17fb.png",
-    "static/media/modern-line-art-brochure-with-blue-abstract-waves.jpg": "/ayurveda/homepage/static/media/modern-line-art-brochure-with-blue-abstract-waves.5fb75b5ab2bd1992aeeb.jpg",
-    "static/media/mind.jpg": "/ayurveda/homepage/static/media/mind.b09444363dd2d2cd8ec8.jpg",
-    "static/media/notepad.png": "/ayurveda/homepage/static/media/notepad.8d570092a95416aa4380.png",
-    "index.html": "/ayurveda/homepage/index.html",
-    "main.bf472f22.css.map": "/ayurveda/homepage/static/css/main.bf472f22.css.map",
-    "main.5c71d8d5.js.map": "/ayurveda/homepage/static/js/main.5c71d8d5.js.map",
-    "213.fa86d1ec.chunk.js.map": "/ayurveda/homepage/static/js/213.fa86d1ec.chunk.js.map",
-    "455.0acf3f74.chunk.js.map": "/ayurveda/homepage/static/js/455.0acf3f74.chunk.js.map",
-    "453.cc4d4cb0.chunk.js.map": "/ayurveda/homepage/static/js/453.cc4d4cb0.chunk.js.map"
+    "main.css": "/ayurveda/static/css/main.bf472f22.css",
+    "main.js": "/ayurveda/static/js/main.7305c02f.js",
+    "static/js/213.fa86d1ec.chunk.js": "/ayurveda/static/js/213.fa86d1ec.chunk.js",
+    "static/js/455.0acf3f74.chunk.js": "/ayurveda/static/js/455.0acf3f74.chunk.js",
+    "static/js/453.cc4d4cb0.chunk.js": "/ayurveda/static/js/453.cc4d4cb0.chunk.js",
+    "static/media/digestive_system.png": "/ayurveda/static/media/digestive_system.74e4c86249de0adcfa8e.png",
+    "static/media/saar.png": "/ayurveda/static/media/saar.d973d7816f340526b07e.png",
+    "static/media/body_process.png": "/ayurveda/static/media/body_process.54c994ba04711bc9cdfb.png",
+    "static/media/body.png": "/ayurveda/static/media/body.9104521d00e5eefcc11f.png",
+    "static/media/agni.png": "/ayurveda/static/media/agni.f29146f08be54d743615.png",
+    "static/media/prakriti.png": "/ayurveda/static/media/prakriti.31a28139eb30ab7e17fb.png",
+    "static/media/modern-line-art-brochure-with-blue-abstract-waves.jpg": "/ayurveda/static/media/modern-line-art-brochure-with-blue-abstract-waves.5fb75b5ab2bd1992aeeb.jpg",
+    "static/media/mind.jpg": "/ayurveda/static/media/mind.b09444363dd2d2cd8ec8.jpg",
+    "static/media/notepad.png": "/ayurveda/static/media/notepad.8d570092a95416aa4380.png",
+    "index.html": "/ayurveda/index.html",
+    "main.bf472f22.css.map": "/ayurveda/static/css/main.bf472f22.css.map",
+    "main.7305c02f.js.map": "/ayurveda/static/js/main.7305c02f.js.map",
+    "213.fa86d1ec.chunk.js.map": "/ayurveda/static/js/213.fa86d1ec.chunk.js.map",
+    "455.0acf3f74.chunk.js.map": "/ayurveda/static/js/455.0acf3f74.chunk.js.map",
+    "453.cc4d4cb0.chunk.js.map": "/ayurveda/static/js/453.cc4d4cb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf472f22.css",
-    "static/js/main.5c71d8d5.js"
+    "static/js/main.7305c02f.js"
   ]
 }
