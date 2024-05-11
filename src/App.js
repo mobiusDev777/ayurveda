@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import AppSettings from "./components/Contexts/AppSettings";
 import HomePage from "./components/Homepage/Homepage";
 
@@ -28,7 +28,7 @@ const App = () => {
 
 	return (
 		<AppSettings.Provider value={{isDark, setTheme, isMobile}}>
-			<BrowserRouter>
+			<HashRouter>
 				<Routes>
 					<Route index path="/" element={<HomePage isDark={isDark} />} />
 					<Route path="saar_pariksha/*" element={<SaarPariksha />} />
@@ -60,7 +60,7 @@ const App = () => {
           }
           />
 				</Routes>
-			</BrowserRouter>
+			</HashRouter>
 		</AppSettings.Provider>
 	);
 };
