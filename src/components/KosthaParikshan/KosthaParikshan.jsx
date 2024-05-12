@@ -9,7 +9,20 @@ function KosthaParikshan() {
   const {theme, isMobile} = useContext(AppSettings)
   const [showResult, setShowResult] = useState(false);
   const [selectedOpt, selectOpt] = useState(new Array(KosthaOptions.length).fill(null));
+
+  const [score, setScore] = useState({
+    totalScore: 0,
+    kostha: '',
+  });
   
+  useEffect(() => {
+    const totalScore = selectedOpt.filter(ele => ele != null).reduce((sum, ele) => sum + ++ele, 0);
+    setScore({
+      totalScore: totalScore,
+      kostha: totalScore <= 7 ? 'Krura' : totalScore <= 14 ? 'Madhyam' : 'Mridu',
+    });
+  }, [showResult]);
+
   const handleSelection = (questionNo, optionNo) => {
     selectOpt((prev) => {
       const newArr = [...prev];
@@ -55,15 +68,13 @@ function KosthaParikshan() {
         <div style={styles.resultCont}>
           <div style={styles.backdrop} onClick={() => setShowResult(false)} />
 				<div
-					style={{						
-						width: "80%",
-            maxHeight: "88%",
-            overflow: 'auto',
-						padding: "22px",
-						borderRadius: "22px",
-						backgroundColor: "#fff",
-					}}
+					style={styles.resultPanel}
 				>
+          <div style={{
+            textAlign: 'center',
+          }}>
+            {`Total score: ${score.totalScore} Kostha: ${score.kostha} Kostha`}
+          </div>
           {/* {selectedOpt.map((answer, index) => (
           <div key={index} style={{
             borderBottom: '1px solid #888',
@@ -188,5 +199,13 @@ const styles = {
     zIndex: -1,
     backgroundColor: '#0004',
     backdropFilter: 'blur(12px)',
+  },
+  resultPanel: {						
+    width: "80%",
+    maxHeight: "88%",
+    overflow: 'auto',
+    padding: "22px",
+    borderRadius: "22px",
+    backgroundColor: "#fff",
   }
 }

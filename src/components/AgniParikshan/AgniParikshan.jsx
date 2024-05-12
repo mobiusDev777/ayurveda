@@ -1,13 +1,25 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 
 import AgniOptions from './AgniOptions.json'
 import ArrowBack from '../SymbolicComponent/ArrowBack';
 import ResultBtn from '../SymbolicComponent/ResultBtn';
 import AppSettings from '../Contexts/AppSettings';
 function AgniParikshan() {
-  const {theme, isMobile } = useContext(AppSettings)
+  const {theme, isMobile } = useContext(AppSettings);
   const [showResult, setShowResult] = useState(false);
   const [selectedOpt, selectOpt] = useState(new Array(AgniOptions.length).fill(null));
+  const [score, setScore] = useState({
+    totalScore: 0,
+    kostha: '',
+  });
+
+  useEffect(() => {
+    const totalScore = selectedOpt.filter(ele => ele != null).reduce((sum, ele) => sum + ++ele, 0);
+    setScore({
+      totalScore: totalScore,
+      kostha: totalScore <= 7 ? 'Krura' : totalScore <= 14 ? 'Madhyam' : 'Mridu',
+    });
+  }, [showResult]);
   
   const handleSelection = (questionNo, optionNo) => {
     selectOpt((prev) => {
@@ -16,6 +28,7 @@ function AgniParikshan() {
       return newArr;
     })
   }
+
 
   return (
     <div style={{
@@ -68,21 +81,13 @@ function AgniParikshan() {
           justifyContent: 'center',
           alignItems: 'center',
         }}>
+          <div style={styles.backdrop} onClick={() => setShowResult(false)} />
+				<div style={styles.resultPanel}>
           <div style={{
-            position: 'absolute',
-            width: '100%',
-            height: '100%',
-            zIndex: -1,
-            backgroundColor: '#0003',
-            backdropFilter: 'blur(12px)',
-          }} onClick={() => setShowResult(false)} />
-				<div
-					style={styles.resultPanel}
-				><div style={{
-          textAlign: 'center',
-        }}>
-          {`Total score: ${selectedOpt.filter(ele => ele != null).reduce((sum, ele) => sum + ++ele, 0)}`}
-        </div>
+            textAlign: 'center',
+          }}>
+            {`Total score: ${score.totalScore} Kostha: ${score.kostha} Kostha`}
+          </div>
           {selectedOpt.filter(ele => ele).length ? (
           selectedOpt
 						.map((ele, eleIndex) => [
@@ -167,6 +172,14 @@ const styles = {
     padding: '8px 14px',
     borderRadius: '24px',
     // backgroundColor: '#ffffff',
+  },
+  backdrop: {
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    zIndex: -1,
+    backgroundColor: '#0003',
+    backdropFilter: 'blur(12px)',
   },
   resultPanel: {						
     width: "80%",

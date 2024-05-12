@@ -39,12 +39,13 @@ function Result({displayData, selectedData}) {
   //   'pitt': 0,
   //   'kuff': 0,
   // });
-
+  
+  
   const chartData = {
     labels: ['Vaat','Pitt','Kuff'],
     datasets: [{
       label: 'dosha percentage',
-      data: [0, 0, 0],
+      data: [10, 0, 0],
       backgroundColor: [
         'rgb(255, 99, 132)',
         'rgb(54, 162, 235)',
@@ -53,7 +54,6 @@ function Result({displayData, selectedData}) {
     }]
   };
 
-  useEffect(() => {
     Object.entries(selectedData).forEach(([_c, questionArr]) => {
       Object.entries(questionArr).forEach(([_Qn, doshaArr]) => {
         Object.entries(doshaArr).forEach(([dosha, answers]) => {
@@ -74,7 +74,6 @@ function Result({displayData, selectedData}) {
     chartData.datasets[0]['data'].forEach((ele, index) => {
       chartData.datasets[0]['data'][index] = ele / dosha_sum * 100;
     })
-  }, []);
 
   return (
     <div>
