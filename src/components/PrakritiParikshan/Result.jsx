@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -27,53 +27,52 @@ const options = {
     },
     title: {
       display: true,
-      text: 'Chart.js Horizontal Bar Chart'
+      text: 'Prakriti Priksha'
     },
   }
 }
 
 function Result({displayData, selectedData}) {
 
-  // const dosha_counter = useRef({
-  //   'vaat': 0,
-  //   'pitt': 0,
-  //   'kuff': 0,
-  // });
-  
-  
-  const chartData = {
-    labels: ['Vaat','Pitt','Kuff'],
+  const [chartData, setChartData] = useState({
     datasets: [{
-      label: 'dosha percentage',
-      data: [10, 0, 0],
-      backgroundColor: [
-        'rgb(255, 99, 132)',
-        'rgb(54, 162, 235)',
-        'rgb(155, 215, 186)',
-      ]
+      data: [0],
     }]
-  };
+  });
 
+  useEffect(() => {
+    let pitt = 0, vaat = 0, kuff = 0
+    
     Object.entries(selectedData).forEach(([_c, questionArr]) => {
       Object.entries(questionArr).forEach(([_Qn, doshaArr]) => {
         Object.entries(doshaArr).forEach(([dosha, answers]) => {
           // dosha_counter.current[dosha] = dosha_counter.current[dosha] + answers.length;
           if(dosha == 'vaat') {
-            chartData.datasets[0]['data'][0] = chartData.datasets[0]['data'][0] + answers.length;
+            vaat += answers.length;
           } else if (dosha == 'pitt') {
-            chartData.datasets[0]['data'][1] = chartData.datasets[0]['data'][1] + answers.length;
+            pitt += answers.length;
           } else {
-            chartData.datasets[0]['data'][2] = chartData.datasets[0]['data'][2] + answers.length;
+            kuff += answers.length;
           }
         });
       });
     });
+    
+    const totalDosha = [vaat, pitt, kuff].reduce((sum, ele) => sum + ele);
 
-    let dosha_sum = chartData.datasets[0]['data'].reduce((sum, ele) => sum + ele)
-
-    chartData.datasets[0]['data'].forEach((ele, index) => {
-      chartData.datasets[0]['data'][index] = ele / dosha_sum * 100;
+    setChartData({
+      labels: ['Vaat','Pitt','Kuff'],
+      datasets: [{
+        label: 'dosha percentage',
+        data: [vaat, pitt, kuff].map((ele) => ele / totalDosha * 100),
+        backgroundColor: [
+          'rgb(255, 99, 132)',
+          'rgb(54, 162, 235)',
+          'rgb(155, 215, 186)',
+        ],
+      }]
     })
+  }, [])
 
   return (
     <div>
